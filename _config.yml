@@ -1,14 +1,18 @@
 # Example Site settings
 
 #google_analytics: UA-NNNNNNNN-N
+#logo: "/assets/'ls tsp.png'"
 
-#header_pages:
-#  - index.md
-#  - about.md
+header_pages:
+  - home.md
+  - #about.md
+  - #info.md
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'Follow me on <a href="https://twitter.com/L0rd5ud0">Twitter</a>'
 
-#style: light # dark (default) or light
+
+
+style: hacker
 #listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
