@@ -5,8 +5,8 @@
 
 header_pages:
   - home.md
-  - #about.md
-  - #info.md
+  #- about.md
+  #- info.md
 
 footer: 'Follow me on <a href="https://twitter.com/L0rd5ud0">Twitter</a>'
 
