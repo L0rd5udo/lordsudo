@@ -1,8 +1,7 @@
 ---
-title: /L0rd$ud0
+title: Lord Sudo
 layout: home
 permalink: /
-logo: "/assets/'ls tsp.png'"
 ---
 
 
