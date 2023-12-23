@@ -1,14 +1,17 @@
 # Example Site settings
 
 #google_analytics: UA-NNNNNNNN-N
-#logo: "/assets/'ls tsp.png'"
+
 
 header_pages:
   - home.md
   #- about.md
   #- info.md
 
-footer: 'Follow me on <a href="https://twitter.com/L0rd5ud0">Twitter</a>'
+
+
+footer: 
+- 'Follow me on <a href="https://twitter.com/L0rd5ud0">Twitter</a> <br/> <br/> lordsudo@2023' 
 
 
 
