@@ -5,7 +5,10 @@
 
 header_pages:
   - home.md
-  #- about.md
+  - Articles.md
+  - Writeups.md
+  - about.md
+
   #- info.md
 
 

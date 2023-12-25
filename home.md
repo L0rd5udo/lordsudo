@@ -12,6 +12,3 @@ A Red Teamer and CTF player.
 Uncover the secrets of cyber warfare in my mysterious works. 
 Dare to explore!!!!!
 
-
-
-```Stay Tuned for upcoming works......```
