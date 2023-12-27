@@ -10,7 +10,7 @@ permalink: /
 Dare to explore!!!!!-->
 
 Greetings, intrepid wanderers!  
-I am **Lord Sudo**, a red teamer and CTF player for [**p3rf3ctr00t**](https://twitter.com/p3rf3ctr00t).
+I am **Lord Sudo**, a red teamer and CTF player for [*p3rf3ctr00t*](https://twitter.com/p3rf3ctr00t).
 
 Join me on a journey through the enigmatic landscapes of digital intrigue. Within these virtual corridors, secrets await discovery, and the art of exploration becomes the key to unlocking hidden knowledge.
 
