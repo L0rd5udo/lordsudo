@@ -5,16 +5,16 @@
 
 header_pages:
   - home.md
-  - Articles.md
-  - Writeups.md
-  - about.md
+  #- Articles.md
+  #- Writeups.md
+  #- about.md
 
   #- info.md
 
 
 
 footer: 
-- 'Follow me on <a href="https://twitter.com/L0rd5ud0">Twitter</a> <br/> <br/> ©2023 Lord Sudo, All rights Reserved' 
+- 'Follow me on <a href="https://twitter.com/L0rd5ud0">Twitter</a> <br/> <br/> ©2024 Lord Sudo, All rights Reserved' 
 
 
 
