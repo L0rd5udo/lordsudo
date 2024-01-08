@@ -19,7 +19,7 @@ FYI: flag is all lowercase and _ for spaces. Please remove all accent marks if t
 
 The first thing that comes to mind is to check the image metadata for any probable location information, though in most cases it is usually stripped off the image. 
 
-![](/_posts/IrisCtf/Chall1/exif.png)
+![exif](/_posts/IrisCtf/Chall1/exif.png)
 
 Just as we thought, the location data has been stripped from the image.
 
@@ -48,7 +48,7 @@ The Audio file was provided and its transcript too
 
 ##### Solution
 Out of Curiosity I sent an email to Michel and got the following response.
-![](/_posts/IrisCtf/Chall2/Email.png)
+![email](/_posts/IrisCtf/Chall2/Email.png)
 
 We can use ```epieos.com``` and find out what data we can get from there and this gives us the full name of the google account in question.
 ![Epieos](/_posts/IrisCtf/Chall2/Epieos.png)
@@ -60,7 +60,7 @@ A google search with the name shows us two social media accounts i.e LinkedIn an
 We can confirm that the instagram account belongs to him since its all about birds and thats what he hinted towards in his email.
 Scrolling through the posts we come across a very interesting one that gives us the flag.
 
-![](/_posts/IrisCtf/Chall2/igflag.png)
+![igflag](/_posts/IrisCtf/Chall2/igflag.png)
 
 This gives us the flag: *irisctf{pub1ic_4cc0unt5_4r3_51tt1ng_duck5}.*
 
@@ -87,17 +87,17 @@ Searching for that username on Instagram bore no fruits, so i decided to shift m
 
 Searching through facebook gave various accounts but finding the exact one was really easy.
 
-![](/_posts/IrisCtf/Chall3/elaina.png)
+![elaina](/_posts/IrisCtf/Chall3/elaina.png)
 
 Scrolling down through her profile we hit basically a gold mine.
 
-![](/_posts/IrisCtf/Chall3/bday.png)
+![bday](/_posts/IrisCtf/Chall3/bday.png)
 
 We have a hit on Iris' Birthdate which gives us her age - 27yrs
 
 In the comments of the birthday post, we basically hit another gold mine as we can now find the hospital she was born in.
 
-![](/_posts/IrisCtf/Chall3/bday%20comment.png)
+![bdaycomment](/_posts/IrisCtf/Chall3/bday%20comment.png)
 
 A revrse search of the image gives us the hospital or alternativley we could search by the leading statement from the mum's comment "best maternity hospital in Manhattan"
 This search gives us results from Yelp which leads us to the answer.
@@ -110,7 +110,7 @@ Now for the final answer, we can do a search on LinkedIn for Iris And we get a h
 
 Using all the details found we can now enter the answers on the web page to get our flag.
 
-![](/_posts/IrisCtf/Chall3/filledwebpage.png)
+![filled](/_posts/IrisCtf/Chall3/filledwebpage.png)
 
 This gives us the flag: *irisctf{s0c1al_m3d1a_1s_an_1nf3cti0n}*
 
