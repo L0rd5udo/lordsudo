@@ -170,6 +170,8 @@ The hash is input in a text file and run against hashcat
 
 ```hashcat -m 3200 hash.txt iriswordlist.txt```
 
+<img src="/IrisCtf/Chall4/hash.png" width="640" height="50"  />
+
 This gives us the matching password PortofinoItalyTiramisu0481965
 
 The flag: irisctf{PortofinoItalyTiramisu0481965}
