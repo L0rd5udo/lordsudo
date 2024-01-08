@@ -1,6 +1,7 @@
 ---
 layout : page
 ---
+<img src="/IrisCtf/Logo.png" width="600" height="150" />
 
 # IRISCTF 2024 OSINT Challenge
 -----
@@ -10,7 +11,7 @@ layout : page
 #### Description
 Iris visited this cool shop a while back, but forgot where it was! What street is it on?
 
-The file provided is the image below.
+This is the image of the shop.
 <img src="/IrisCtf/Chall1/czechwhere.png" width="640" height="360" />
 
 
@@ -23,10 +24,7 @@ The first thing that comes to mind is to check the image metadata for any probab
 
 <img src="/IrisCtf/Chall1/exif.png" width="640" height="360" />
 
-
-
 Just as we thought, the location data has been stripped from the image.
-
 
 We can now do a reverse search with the image and we see an article with the same image. The article points to Golden Lane,Prague castle. 
 
@@ -118,7 +116,7 @@ This search gives us results from Yelp which leads us to the answer.
 
 <img src="/IrisCtf/Chall3/lenoxhill.png" width="640" height="360" />
 
-Now for the final answer, we can do a search on LinkedIn for Iris And we get a hit. Information from the previous question tells us that she works in the HR department and thus we can verify that it indeed is her profile and get her comapny.
+Now for the final answer, we can do a search on LinkedIn for Iris And we get a hit. Information from the previous question tells us that she works in the HR department and thus we can verify that it indeed is her profile and get her company.
 
 <img src="/IrisCtf/Chall3/LinkedIn.png" width="640" height="360" />
 
@@ -147,6 +145,7 @@ If you find a specific date, do not include the month'a name into your word list
 
 ##### Solution
 We start with a hash and need to decrypt it for which we shall require a wordlist. This needs us to gather key information to include in the wordlist.
+
 Scouring through her Instagram, she mentioned her Mum's birthday being an important date and we can get this from the mum's facebook. This should be our numbers - as per the hint.
 
 <img src="/IrisCtf/Chall4/mum.png" width="640" height="360" />
@@ -160,14 +159,14 @@ In another post, she mentions how 'Portofino' will always be a destination to re
 
 <img src="/IrisCtf/Chall4/portofino.png" width="640" height="360" />
 
-Going through all the posts and various things that may be important we now have enough text to create a wordlist.
+Going through all the posts and various things that may be important we can gather enough information to create a wordlist.
 
 We can generate the wordlist using a python script
 
 <img src="/IrisCtf/Chall4/python.png" width="640" height="360" />
 
 We now have a wordlist file that we can run against the hash.
-the hash is input in a text file and run against hashcat
+The hash is input in a text file and run against hashcat
 
 ```hashcat -m 3200 hash.txt iriswordlist.txt```
 
@@ -181,5 +180,5 @@ Overall, this was a very interesting OSINT Challenge that i had fun tackling. Ku
 
 -----
  
- 
+
 Nos vemos en mi próximo artículo...
