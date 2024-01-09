@@ -1,7 +1,7 @@
 ---
 layout : page
 ---
-<img src="/IrisCtf/Logo.png" width="640" height="150" />
+<img src="/IrisCtf/Logo.png" width="640" height="140" />
 
 # IRISCTF 2024 OSINT Challenge
 -----
