@@ -53,7 +53,7 @@ The Audio file was provided and its transcript too
 ##### Solution
 Out of Curiosity I sent an email to Michel and got the following response.
 
-<img src="/IrisCtf/Chall2/Email.png" width="640" height="150" />
+<img src="/IrisCtf/Chall2/Email.png" width="640" height="90" />
 
 We can use ```epieos.com``` and find out what data we can get from there and this gives us the full name of the google account in question.
 
@@ -68,7 +68,7 @@ A google search with the name shows us two social media accounts i.e LinkedIn an
 We can confirm that the instagram account belongs to him since its all about birds and thats what he hinted towards in his email.
 Scrolling through the posts we come across a very interesting one that gives us the flag.
 
-<img src="/IrisCtf/Chall2/igflag.png" width="640" height="150" />
+<img src="/IrisCtf/Chall2/igflag.png" width="640" height="220" />
 
 This gives us the flag: *irisctf{pub1ic_4cc0unt5_4r3_51tt1ng_duck5}.*
 
@@ -86,7 +86,7 @@ This challenge provides us with a link to a web page where we are required to pr
 
 Going back to Michel's page, we can check his following which leads us to Iris' Instagram handle.
 
-<img src="/IrisCtf/Chall3/following.png" width="640" height="360" />
+<img src="/IrisCtf/Chall3/following.png" width="640" height="400" />
 
 
 Perusing through her feed there isnt much of help apart from a single post where she mentions her mum and also tags a handle.
@@ -103,13 +103,13 @@ Searching through facebook gave various accounts but finding the exact one was r
 
 Scrolling down through her profile we hit basically a gold mine.
 
-<img src="/IrisCtf/Chall3/bday.png" width="640" height="360" />
+<img src="/IrisCtf/Chall3/bday.png" width="640" height="400" />
 
 We have a hit on Iris' Birthdate which gives us her age - 27yrs
 
 In the comments of the birthday post, we basically hit another gold mine as we can now find the hospital she was born in.
 
-<img src="/IrisCtf/Chall3/bday comment.png" width="640" height="360" />
+<img src="/IrisCtf/Chall3/bday comment.png" width="640" height="450" />
 
 A reverse search of the image gives us the hospital or alternativley we could search by the leading statement from the mum's comment "best maternity hospital in Manhattan"
 This search gives us results from Yelp which leads us to the answer.
@@ -170,7 +170,7 @@ The hash is input in a text file and run against hashcat
 
 ```hashcat -m 3200 hash.txt iriswordlist.txt```
 
-<img src="/IrisCtf/Chall4/hash.png" width="640" height="50"  />
+<img src="/IrisCtf/Chall4/hash.png" width="640" height="40"  />
 
 This gives us the matching password PortofinoItalyTiramisu0481965
 
@@ -183,4 +183,6 @@ Overall, this was a very interesting OSINT Challenge that i had fun tackling. Ku
 -----
  
 
+
+<!-- <img src="/assets/ls tsp.png" width="30" height="30" />   -->
 Nos vemos en mi próximo artículo...
