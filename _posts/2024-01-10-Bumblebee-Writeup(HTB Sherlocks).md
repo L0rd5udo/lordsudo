@@ -138,6 +138,7 @@ While analysing the entry for the backup download, we can find the file size ind
 -----
 
 Nos vemos en mi próximo artículo...
+<img src='/favicon.png' width="40" height="40">
 
 
 

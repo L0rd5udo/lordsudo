@@ -182,7 +182,5 @@ Overall, this was a very interesting OSINT Challenge that i had fun tackling. Ku
 
 -----
  
-
-
-<!-- <img src="/assets/ls tsp.png" width="30" height="30" />   -->
 Nos vemos en mi próximo artículo...
+<img src='/favicon.png' width="40" height="40">

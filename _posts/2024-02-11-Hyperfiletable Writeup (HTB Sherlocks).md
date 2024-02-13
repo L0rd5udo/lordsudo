@@ -133,3 +133,4 @@ You have to check for all the files that have C:\Users as the parent directory.
 -----
 
 Nos vemos en mi próximo artículo...
+<img src='/favicon.png' width="40" height="40">
